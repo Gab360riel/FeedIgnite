@@ -41,7 +41,7 @@
 
 .author {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 1rem;
 }
 
@@ -117,4 +117,8 @@
 
 .commentForm button[type=submit]:hover {
     background: var(--green-300);
+}
+
+.commentList {
+    margin-top: 2rem;
 }
